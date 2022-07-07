@@ -2,7 +2,7 @@ import phonenumbers
 import folium
 from phonenumbers import geocoder,carrier
 from opencage.geocoder import OpenCageGeocode
-number = input("Enter the phone number you want to locate: ")
+number = "+918630292937"
 pepnumber = phonenumbers.parse(number)
 location = geocoder.description_for_number(pepnumber,"en")
 service_pro = phonenumbers.parse(number)
